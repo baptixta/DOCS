@@ -1,4 +1,4 @@
------------ GIT ---------
+﻿----------- GIT ---------
 -REGISTRAR USER
 git config --global user.name "Nome"
 
@@ -19,8 +19,8 @@ git config --list
 mkdir nome-pasta
 
 -ENTRAR NA PASTA & SAIR
-dir nome-pasta/
-dir ..
+cd nome-pasta/
+cd ..
 
 -INICIALIZAR REPOSITÓRIO
 git init
