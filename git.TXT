@@ -1,0 +1,73 @@
+----------- GIT ---------
+-REGISTRAR USER
+git config --global user.name "Nome"
+
+- REGISTRAR EMAIL
+git config --global user.email "Email"
+
+- CONFIGURAR EDITOR
+git config --global core.editor "(nome do editor no cmd)"
+
+- "PEGAR" INFORMAÇÃO ESPECÍFICA
+git config (user.name | user.email | core.editor)
+
+- "PEGAR" TODAS AS INFOS
+git config --list
+
+----------- REPOSITÓRIO LOCAL ---------
+-CRIAR PASTAS
+mkdir nome-pasta
+
+-ENTRAR NA PASTA & SAIR
+dir nome-pasta/
+dir ..
+
+-INICIALIZAR REPOSITÓRIO
+git init
+
+----------- CICLO DE VIDA DOS STATUS DOS ARQUIVOS ---------
+- git status
+- git add .
+- git git commit -am ""
+- git pull
+- git push origin master
+
+----------- DESFAZENDO COISAS ---------
+
+- RETORNAR O ARQUIVO PRA ANTES DA MUDANÇA
+git checkout nome-arquivo
+
+- RETORNAR O ARQUIVO QUANDO JÁ FOI DADO "ADD"
+git reset HEAD nome-arquivo
+
+- RETORNAR O ARQUIVO QUANDO JÁ FOI "COMMITADO"
+git reset --soft --mixed --hard
+EXEMPLO: git reset --soft b4a885d321a(hash)
+
+----------- LOGS ---------
+Mostra autores, commits e mais coisas.
+
+- VER OS LOGS
+git log
+
+- LOG "RESUMIDO"
+git shortlog
+git shortlog -sn (nome e quantidade de commits)
+
+- VER NA FORMA GRÁFICA
+git log --graph
+
+- ESPECIFICAÇÕES MAIORES
+git log --decorate
+
+- FILTRAR PELO AUTOR
+git log --author="nome"
+
+----------- DIFFS ---------
+Mostra as modificações antes de subir os arquivos (útil)
+
+- VER TUDO ANTES DE SUBIR
+git diff
+
+- SOMENTE O NOME DO ARQUIVO MODIFICADO
+git diff --name-only
