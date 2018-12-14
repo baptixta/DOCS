@@ -1,0 +1,63 @@
+---------------- REDES DE COMPUTADORES ---------------
+
+- PROTOCOLO: Série de regras que fazem com que as comunicações em uma rede
+sejam mais eficientes.
+
+- Arquitetura em camadas (Comunicação)
+
+LAN: Local Area Network
+DAN: Departamental Area Network
+MAN: Metropolitan Area Network
+WAN: Wide Area Network
+GAN: Global Area Network
+
+----- Modelo OSI (Open System Interconnection) -----
+-> TEM 7 NÍVEIS/CAMADAS FUNCIONAIS
+
+7 // APLICAÇÃO
+- Tudo que aparece na tela do seu PC
+
+6 // APRESENTAÇÃO
+- Ajuda a camada de APLICAÇÃO a mostrar as informações
+EX: ZIP, APLICAÇÕES DE SEGURANÇA (SSL).
+
+5 // SESSÃO
+- Camada que faz a interface entre seu PC e a rede de TRANSPORTE DE DADOS.
+(Sincronismo entre o cliente e o servidor - Controle de Diálogo)
+
+4 // TRANSPORTE
+Comunicação fim-a-fim.
+PORTA - Onde cada PROTOCOLO tem sua porta específica.
+EX: PORTA 80 - PROTOCOLO HTTP
+
+3 // REDE
+Endereçamento Lógico -> Endereço IP (Internet Protocol)
+
+2 // ENLACE
+Endereçamento Físico -> Endereço MAC
+
+1 // FÍSICA
+Especificar tipo de fibra ótica/fio/onda eletromagnética.
+
+----- Modelo TCP/IP (TRANSMISSION CONTROL PROTOCOL // INTERNET PROTOCOL) -----
+
+4 // APLICAÇÃO (7,6,5 DO MODELO OSI)
+3 // TRANSPORTE
+2 // INTERNET/REDE
+1 // ACESSO A REDE (2,1 DO MODELO OSI)
+
+O protocolo UDP (Seja o que Deus quiser)
+
+O UDP é um protocolo voltado para a não conexão. Simplificando, quando uma máquina A envia pacotes para uma máquina B, o fluxo é unidirecional. Na verdade, a transmissão de dados é feita sem prevenir o destinatário (a máquina B) que, por sua vez, recebe os dados sem avisar ao transmissor (máquina A). Isso se deve ao fato de o encapsulamento dos dados enviados pelo protocolo UDP não permitir transmitir informações sobre o emissor. Portanto, o destinatário não conhece o emissor dos dados, apenas seu IP.
+
+O protocolo TCP (Confiável)
+Ao contrário do UDP, o TCP é voltado para a conexão. Quando a máquina A envia dados para a máquina B, a máquina B é notificada da chegada dos dados e confirma a boa recepção dos mesmos. Aqui, intervém o controle CRC dos dados, baseado em uma equação matemática para verificar a integridade dos dados transmitidos. Assim, se os dados recebidos estiverem corrompidos, o TCP permite que os destinatários peçam ao emissor que reenvie-os.
+
+----- Principais dispositivos de Rede -----
+- REPETIDOR [HUB] (REPEATER) - L1 - CAMADA FÍSICA
+- PONTE (BRIDGE) - L2 - CAMADA DE ENLACE (ENDEREÇAMENTO MAC)
+- SWITCH - L2 - CAMADA DE ENLACE (ENDEREÇAMENTO MAC)
+- ROTEADOR (ROUTER) - L3 (ENDEREÇAMENTO LÓGICO - IP)
+- GATEWAY - L7 (INTERCONEXÃO ENTRE TECNOLOGIAS)
+
+----- FUNCIONAMENTO REPETIDOR [HUB] -----
