@@ -1,0 +1,8 @@
+-------------- GREENSOCK --------------
+
+from -> posição "setada" para a default
+to -> posição atual para outra
+
+stagger -> feito pra animar listas de elementos
+('seletor',tempo da animação, {"css"}, "tempo para a proxima Animação")
+-> Da pra chamar function dentro dele*
