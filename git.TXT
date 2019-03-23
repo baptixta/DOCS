@@ -38,11 +38,15 @@ cd ..
 git init
 
 ----------- REPOSITÓRIO REMOTO ---------
+
 - CLONAR ALGUM REPOSIÓIO
-git clone "https//caminhodoprojeto.com/"
+git clone https//caminhodoprojeto.com/
 
 - PEGA ALTERAÇÕES DO REPOSITÓRIO REMOTO PRO LOCAL
 git pull nome-origem nome-branch
+
+- TRANSFORMAR REPOSITÓRIO LOCAL PARA REMOTO
+git remote add origin https://caminhodoprojeto.com
 
 ----------- CICLO DE VIDA DOS STATUS DOS ARQUIVOS ---------
 - git status
