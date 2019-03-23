@@ -48,7 +48,7 @@ git checkout -b nome-branch
 ----------- DESFAZENDO COISAS ---------
 
 - REMOVER ARQUIVOS E DIRETÓRIOS QUE ESTÃO "UNTRACKED"
-git 
+git clean -fd
 
 - RETORNAR O ARQUIVO PRA ANTES DA MUDANÇA
 git checkout nome-arquivo
@@ -108,3 +108,18 @@ git log --decorate
 
 - FILTRAR PELO AUTOR
 git log --author="nome"
+
+--------- STASH ---------
+GUARDA MODIFICAÇÕES EM UM "ARQUIVO FANTASMA TEMPORARIAMENTE"
+
+- GUARDA O ARQUIVO 
+git stash
+
+- LISTA DE STASHS
+git stash list
+
+- FAZ OS ARQUIVOS VOLTAREM PRO ARQUIVO "NORMAL"
+git stash apply <identificador>
+
+- APLICA O ÚLITMO STASH E REMOVE OS OUTROS
+git stash pop
