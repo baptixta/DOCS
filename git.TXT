@@ -41,9 +41,23 @@ git init
 - git pull
 - git push origin master
 
------------ CRIANDO BRANCHES (RAMIFICAÇÕES) -----------
+----------- BRANCHES (RAMIFICAÇÕES) -----------
 
-git checkout -b nome-branch
+- CRIAR BRANCH
+git branch nome-branch
+obs: apenas cria, não faz checkout pra ela
+
+- CRIAR BRANCH E IR PRA ELA
+git branch -b nome-branch
+
+- TROCAR DE BRANCH
+git checkout nome-branch
+
+- APAGAR BRANCH
+git branch -d nome-branch
+
+- JUNTAR BRANCHES
+git merge nome-branch
 
 ----------- DESFAZENDO COISAS ---------
 
@@ -125,7 +139,10 @@ git stash apply <identificador>
 git stash pop
 
 --------- TAG ---------
-"APELIDOS" PARA OS COMMITS
+CRIA "APELIDOS" PARA OS COMMITS
 
 - DA UM "ID" PARA O COMMIT
 git tag
+
+- APAGA A TAG
+git tag -d nome-tag
