@@ -14,6 +14,9 @@ git config (user.name | user.email | core.editor)
 - "PEGAR" TODAS AS INFOS
 git config --list
 
+- CRIAR ARQUIVO NO PROMPT
+touch nome-arquivo
+
 - LIMPAR O PROMPT
 CTRL + L
 
@@ -154,3 +157,6 @@ git tag -d nome-tag
 Acusa quem alterou cada linha do código.
 
 git blame nome-arquivo
+
+--------- .GITIGNORE ---------
+Arquivo usado no projeto que faz o git ignorar certos arquivos
