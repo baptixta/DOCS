@@ -84,6 +84,9 @@ Mostra autores, commits e mais coisas.
 - VER OS LOGS
 git log
 
+- VER TODOS (MESMO QUE TENHA SIDO "APAGADO") OS LOGS
+git reflog
+
 - VER LOGS NA ORDEM CONTRÁRIA (do mais antigo pro mais novo)
 git log --reverse
 
