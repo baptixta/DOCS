@@ -59,6 +59,9 @@ git branch -d nome-branch
 - JUNTAR BRANCHES
 git merge nome-branch
 
+- PEGA APENAS UM COMMIT DE OUTRA BRANCH
+git cherry pick nome-hash
+
 ----------- DESFAZENDO COISAS ---------
 
 - REMOVER ARQUIVOS E DIRETÓRIOS QUE ESTÃO "UNTRACKED"
@@ -146,3 +149,8 @@ git tag
 
 - APAGA A TAG
 git tag -d nome-tag
+
+--------- BLAME ---------
+Acusa quem alterou cada linha do código.
+
+git blame nome-arquivo
