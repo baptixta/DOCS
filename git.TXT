@@ -1,4 +1,4 @@
-﻿----------- GIT ---------
+----------- GIT -----------
 -REGISTRAR USER
 git config --global user.name "Nome"
 
@@ -15,14 +15,20 @@ git config (user.name | user.email | core.editor)
 git config --list
 
 ----------- REPOSITÓRIO LOCAL ---------
--CRIAR PASTAS
+- VERIFICAR ONDE VOCÊ ESTÁ
+pwd
+
+- CRIAR PASTAS
 mkdir nome-pasta
 
--ENTRAR NA PASTA & SAIR
+- APAGAR PASTAS
+rmdir nome-pasta
+
+- ENTRAR NA PASTA & SAIR
 cd nome-pasta/
 cd ..
 
--INICIALIZAR REPOSITÓRIO
+- INICIALIZAR REPOSITÓRIO
 git init
 
 ----------- CICLO DE VIDA DOS STATUS DOS ARQUIVOS ---------
@@ -44,11 +50,29 @@ git reset HEAD nome-arquivo
 git reset --soft --mixed --hard
 EXEMPLO: git reset --soft b4a885d321a(hash)
 
+----------- DIFFS ---------
+Mostra as modificações antes de subir os arquivos (útil)
+
+- VER TUDO ANTES DE SUBIR
+git diff
+
+- SOMENTE O NOME DO ARQUIVO MODIFICADO
+git diff --name-only
+
 ----------- LOGS ---------
 Mostra autores, commits e mais coisas.
 
 - VER OS LOGS
 git log
+
+- VER LOGS NA ORDEM CONTRÁRIA (do mais antigo pro mais novo)
+git log --reverse
+
+- LOGS EM APENAS UMA LINHA
+git log --oneline
+
+- VERSÃO MAIS DETALHADA DOS LOGS
+git log --summary
 
 - LOG "RESUMIDO"
 git shortlog
@@ -62,12 +86,3 @@ git log --decorate
 
 - FILTRAR PELO AUTOR
 git log --author="nome"
-
------------ DIFFS ---------
-Mostra as modificações antes de subir os arquivos (útil)
-
-- VER TUDO ANTES DE SUBIR
-git diff
-
-- SOMENTE O NOME DO ARQUIVO MODIFICADO
-git diff --name-only
