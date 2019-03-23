@@ -123,3 +123,9 @@ git stash apply <identificador>
 
 - APLICA O ÚLITMO STASH E REMOVE OS OUTROS
 git stash pop
+
+--------- TAG ---------
+"APELIDOS" PARA OS COMMITS
+
+- DA UM "ID" PARA O COMMIT
+git tag
