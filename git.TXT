@@ -64,6 +64,9 @@ obs: apenas cria, não faz checkout pra ela
 - CRIAR BRANCH E IR PRA ELA
 git branch -b nome-branch
 
+- CRIAR BRANCH A PARTIR DE OUTRA 
+git checkout -b nome-branch
+
 - TROCAR DE BRANCH
 git checkout nome-branch
 
