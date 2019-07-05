@@ -6,33 +6,33 @@
 2. [Redes](#redes)
 
 ## Git
-- REGISTRAR USER
+- Registrar user
 ```
 git config --global user.name "Nome"
 ```
 
-- REGISTRAR EMAIL
+- Registrar e-mail
 ```
 git config --global user.email "Email"
 ```
 
-- CONFIGURAR EDITOR
+- Configurar editor
 ```
 git config --global core.editor "(nome do editor no cmd)"
 ```
 
-- "PEGAR" INFORMAÇÃO ESPECÍFICA
+- "Pegar" informação específica
 ```
 git config (user.name | user.email | core.editor)
 ```
 
-- "PEGAR" TODAS AS INFOS
+- "Pegar" todas as infos
 ```
 git config --list
 ```
 
-### REPOSITÓRIO LOCAL
-- INICIALIZAR REPOSITÓRIO
+### Repositório Local
+- Inicializar repositório
 ```
 git init
 ```
