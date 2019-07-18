@@ -37,7 +37,7 @@ git config --list
 git init
 ```
 
-### CICLO DE VIDA DOS STATUS DOS ARQUIVOS
+### Comandos mais usados
 ```
 git status
 git add .
@@ -46,45 +46,45 @@ git pull
 git push origin master
 ```
 
-### BRANCHES (RAMIFICAÇÕES)
-- CRIAR BRANCH
+### Branches (Ramificações)
+- Criar Branch
 ```
 git branch nome-branch
 obs: apenas cria, não faz checkout pra ela
 ```
 
-- CRIAR BRANCH E IR PRA ELA
+- Criar Branch e ir pra ela
 ```
 git branch -b nome-branch
 ```
 
-- CRIAR BRANCH A PARTIR DE OUTRA
+- Criar Branch a partir de outra
 ```
 git checkout -b nome-branch
 ```
 
-- TROCAR DE BRANCH
+- Trocar de Branch
 ```
 git checkout nome-branch
 ```
 
-- APAGAR BRANCH
+- Apagar Branch
 ```
 git branch -d nome-branch
 ```
 
-- JUNTAR BRANCHES
+- Juntar Branches
 git merge nome-branch
 ```
 git branch -d nome-branch
 ```
 
-- PEGA APENAS UM COMMIT DE OUTRA BRANCH
+- Pega apenas um commit de outra Branch
 ```
 git cherry pick nome-hash
 ```
 
-### DESFAZENDO COISAS
+### Desfazendo coisas
 
 
 ## Redes
