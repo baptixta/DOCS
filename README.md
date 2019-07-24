@@ -85,6 +85,36 @@ git cherry pick nome-hash
 ```
 
 ### Desfazendo coisas
+- Remover arquivos e diretórios que estão "untracked"
+```
+git clean -fd
+```
+
+- Retornar o arquivo pra antes da mudança
+```
+git checkout nome-arquivo
+```
+
+- Retornar o arquivo pra um commit específico
+```
+git checkout nome-hash nome-arquivo
+```
+
+- Retornar o arquivo pra um commit específico e criar um commit registrando essa alteração
+```
+git revert HEAD~(hash)
+```
+
+- Retornar o arquivo quando já foi dado "git add"
+```
+git reset HEAD nome-arquivo
+```
+
+- Retornar o arquivo quando já foi "commitado"
+```
+git reset --soft --mixed --hard
+ex: git reset --soft b4a885d321a(hash)
+```
 
 
 ## Redes
