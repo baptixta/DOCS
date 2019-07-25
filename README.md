@@ -74,9 +74,8 @@ git branch -d nome-branch
 ```
 
 - Juntar Branches
-git merge nome-branch
 ```
-git branch -d nome-branch
+git merge nome-branch
 ```
 
 - Pega apenas um commit de outra Branch
