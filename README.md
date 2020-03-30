@@ -1,9 +1,9 @@
 # DOCS
-> Documentações feitas por mim(pra ajudar a galera).
+> Documentações feitas por mim (pra ajudar a galera).
 
 ## Conteúdo
 1. [Git](#git)
-2. [Redes](#redes)
+2. [Level Design (Games)](#level)
 
 ## Git
 - Registrar user
@@ -116,6 +116,4 @@ ex: git reset --soft b4a885d321a(hash)
 ```
 
 
-## Redes
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+## Level Design (Games)
