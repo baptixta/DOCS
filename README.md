@@ -3,7 +3,7 @@
 
 ## Conteúdo
 1. [Git](#git)
-2. [Level Design (Games)](#level)
+2. [Level Design](#level design)
 
 ## Git
 - Registrar user
