@@ -4,7 +4,7 @@
 ## Conteúdo
 1. [Git](#git)
 2. [Level Design (Games)](#level-design)
-3.[Redes](#redes)
+3. [Redes](#redes)
 
 ## Git
 - Registrar user
