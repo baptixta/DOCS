@@ -217,7 +217,7 @@ sejam mais eficientes.
 
 ### Modelo OSI (Open System Interconnection)
 
-- Tem 7 Níveis/Camadas Funcionais
+> Tem 7 Níveis/Camadas Funcionais
 
 #### 7. Aplicação
 - Tudo que aparece na tela do seu PC
@@ -243,3 +243,26 @@ EX: PORTA 80 - PROTOCOLO HTTP
 
 #### 1. Física
 - Especificar tipo de fibra ótica/fio/onda eletromagnética.
+
+### Modelo TCP/IP (Transmission Control Protocol | Internet Protocol)
+
+- 4. Aplicação (7,6,5 do modelo OSI)
+- 3. Transporte
+- 2. Internet | Rede
+- 1. Acesso a rede (2,1 do modelo OSI)
+
+### O protocolo UDP (Seja o que Deus quiser)
+
+O UDP é um protocolo voltado para a não conexão. Simplificando, quando uma máquina A envia pacotes para uma máquina B, o fluxo é unidirecional. Na verdade, a transmissão de dados é feita sem prevenir o destinatário (a máquina B) que, por sua vez, recebe os dados sem avisar ao transmissor (máquina A). Isso se deve ao fato de o encapsulamento dos dados enviados pelo protocolo UDP não permitir transmitir informações sobre o emissor. Portanto, o destinatário não conhece o emissor dos dados, apenas seu IP.
+
+### O protocolo TCP (Confiável)
+
+Ao contrário do UDP, o TCP é voltado para a conexão. Quando a máquina A envia dados para a máquina B, a máquina B é notificada da chegada dos dados e confirma a boa recepção dos mesmos. Aqui, intervém o controle CRC dos dados, baseado em uma equação matemática para verificar a integridade dos dados transmitidos. Assim, se os dados recebidos estiverem corrompidos, o TCP permite que os destinatários peçam ao emissor que reenvie-os.
+
+### Principais dispositivos de Rede
+
+- Repetidor{HUB} (Repeater) - L1 - Camada Física
+- Ponte(Bridge) - L2 - Camada de Enlace (Endereçamento MAC)
+- Switch - L2 - Camada de Enlace (Endereçamento MAC)
+- Roteador (Router) - L3 (Endereçamento Lógico - IP)
+- Gateway - L7 (Interconexão entre tecnologias)
