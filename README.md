@@ -209,13 +209,37 @@ sejam mais eficientes.
 
 ### Arquitetura em camadas (Comunicação)
 
-LAN: Local Area Network
-DAN: Departamental Area Network
-MAN: Metropolitan Area Network
-WAN: Wide Area Network
-GAN: Global Area Network
+- LAN: Local Area Network
+- DAN: Departamental Area Network
+- MAN: Metropolitan Area Network
+- WAN: Wide Area Network
+- GAN: Global Area Network
 
 ### Modelo OSI (Open System Interconnection)
 
 - Tem 7 Níveis/Camadas Funcionais
 
+### 7 // APLICAÇÃO
+- Tudo que aparece na tela do seu PC
+
+### 6 // APRESENTAÇÃO
+- Ajuda a camada de APLICAÇÃO a mostrar as informações
+EX: ZIP, APLICAÇÕES DE SEGURANÇA (SSL).
+
+### 5 // SESSÃO
+- Camada que faz a interface entre seu PC e a rede de TRANSPORTE DE DADOS.
+(Sincronismo entre o cliente e o servidor - Controle de Diálogo)
+
+### 4 // TRANSPORTE
+Comunicação fim-a-fim.
+PORTA - Onde cada PROTOCOLO tem sua porta específica.
+EX: PORTA 80 - PROTOCOLO HTTP
+
+### 3 // REDE
+Endereçamento Lógico -> Endereço IP (Internet Protocol)
+
+### 2 // ENLACE
+Endereçamento Físico -> Endereço MAC
+
+### 1 // FÍSICA
+Especificar tipo de fibra ótica/fio/onda eletromagnética.
