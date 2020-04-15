@@ -4,6 +4,7 @@
 ## Conteúdo
 1. [Git](#git)
 2. [Level Design (Games)](#level-design)
+3.[Redes](#redes)
 
 ## Git
 - Registrar user
@@ -197,3 +198,24 @@ o que foi criado]
 - processo demorado
 - testar todas as possibilidades criadas
 - usar outras pessoas para testar o nível (receber feedbacks)
+
+
+## Redes
+
+### Protocolo
+
+Série de regras que fazem com que as comunicações em uma rede
+sejam mais eficientes.
+
+### Arquitetura em camadas (Comunicação)
+
+LAN: Local Area Network
+DAN: Departamental Area Network
+MAN: Metropolitan Area Network
+WAN: Wide Area Network
+GAN: Global Area Network
+
+### Modelo OSI (Open System Interconnection)
+
+- Tem 7 Níveis/Camadas Funcionais
+
