@@ -219,27 +219,27 @@ sejam mais eficientes.
 
 - Tem 7 Níveis/Camadas Funcionais
 
-### 7 // APLICAÇÃO
+#### 7. Aplicação
 - Tudo que aparece na tela do seu PC
 
-### 6 // APRESENTAÇÃO
+#### 6. Apresentação
 - Ajuda a camada de APLICAÇÃO a mostrar as informações
 EX: ZIP, APLICAÇÕES DE SEGURANÇA (SSL).
 
-### 5 // SESSÃO
+#### 5. Sessão
 - Camada que faz a interface entre seu PC e a rede de TRANSPORTE DE DADOS.
 (Sincronismo entre o cliente e o servidor - Controle de Diálogo)
 
-### 4 // TRANSPORTE
-Comunicação fim-a-fim.
+#### 4. Transporte
+- Comunicação fim-a-fim.
 PORTA - Onde cada PROTOCOLO tem sua porta específica.
 EX: PORTA 80 - PROTOCOLO HTTP
 
-### 3 // REDE
-Endereçamento Lógico -> Endereço IP (Internet Protocol)
+#### 3. Rede
+- Endereçamento Lógico -> Endereço IP (Internet Protocol)
 
-### 2 // ENLACE
-Endereçamento Físico -> Endereço MAC
+#### 2. Enlace
+- Endereçamento Físico -> Endereço MAC
 
-### 1 // FÍSICA
-Especificar tipo de fibra ótica/fio/onda eletromagnética.
+#### 1. Física
+- Especificar tipo de fibra ótica/fio/onda eletromagnética.
