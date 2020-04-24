@@ -5,6 +5,7 @@
 1. [Git](#git)
 2. [Level Design (Games)](#level-design)
 3. [Redes](#redes)
+4. [Python](#python)
 
 ## Git
 - Registrar user
@@ -266,3 +267,6 @@ Ao contrário do UDP, o TCP é voltado para a conexão. Quando a máquina A envi
 - Switch - L2 - Camada de Enlace (Endereçamento MAC)
 - Roteador (Router) - L3 (Endereçamento Lógico - IP)
 - Gateway - L7 (Interconexão entre tecnologias)
+
+
+## Python
