@@ -5,7 +5,6 @@
 1. [Git](#git)
 2. [Level Design (Games)](#level-design)
 3. [Redes](#redes)
-4. [Python](#python)
 
 ## Git
 - Registrar user
