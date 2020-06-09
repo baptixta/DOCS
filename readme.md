@@ -1,5 +1,6 @@
 <h1 align="center">
     <img alt="E-mail" src="https://cdn0.iconfinder.com/data/icons/entypo/90/document1-512.png" width="100" />
+    <br>
     Documentações.
 </h1>
 > Feitas por mim, para ajudar quem precisar.
