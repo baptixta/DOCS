@@ -16,7 +16,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 
 Deseja contribuir em alguma documentação existente, ou tem algum conteúdo que você **domina** e quer compartilhar aqui?
 
-Veja os termos para contribuir [aqui](#aqui).
+Veja os termos para contribuir [aqui](https://github.com/baptixta/DOCS/blob/master/contributing.md).
 
 ---
 
