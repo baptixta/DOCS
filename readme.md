@@ -3,10 +3,10 @@
 Conteúdo sobre **Programação**, **Desenvolvimento Web** e **Desenvolvimento de Games**.
 
 ## :star: Documentos
-1. [Git](#git)
-2. [Level Design (Games)](#level-design)
-3. [Redes](#redes)
-4. [Python](#python)
+1. [Git](https://github.com/baptixta/DOCS/blob/master/git.md)
+2. [Level Design (Games)](https://github.com/baptixta/DOCS/blob/master/level-design.md)
+3. [Redes](https://github.com/baptixta/DOCS/blob/master/redes.md)
+4. [Python](https://github.com/baptixta/DOCS/blob/master/python.md)
 
 ## 📝  Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/baptixta) para mais detalhes.
