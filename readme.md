@@ -3,7 +3,7 @@
     <br>
     Documentações.
 </h1>
-> Conteúdo sobre **Programação**, **Desenvolvimento Web** e **Desenvolvimento de Games**.
+Conteúdo sobre **Programação**, **Desenvolvimento Web** e **Desenvolvimento de Games**.
 
 ## Conteúdo
 1. [Git](#git)
