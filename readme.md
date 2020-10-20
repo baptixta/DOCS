@@ -6,7 +6,8 @@ Conteúdo sobre **Programação**, **Desenvolvimento Web** e **Desenvolvimento d
 1. [Git](https://github.com/baptixta/DOCS/blob/master/git.md)
 2. [Level Design (Games)](https://github.com/baptixta/DOCS/blob/master/level-design.md)
 3. [Redes](https://github.com/baptixta/DOCS/blob/master/redes.md)
-4. [Python](https://github.com/baptixta/DOCS/blob/master/python.md)
+4. [Email Marketing Responsivo](https://github.com/baptixta/DOCS/blob/master/email-mkt.md)
+5. [Python](https://github.com/baptixta/DOCS/blob/master/python.md)
 
 ## 📝  Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/baptixta) para mais detalhes.
